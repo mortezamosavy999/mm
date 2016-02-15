@@ -234,76 +234,72 @@ function create_config( )
     help_text_realm = [[
 Realm Commands:
 
+
 !creategroup [Name]
-Create a group
+ساختن گروه
 
 !createrealm [Name]
-Create a realm
+ساختن مقر فرماندهی
 
 !setname [Name]
-Set realm name
+تنظیم نام گروه
 
 !setabout [GroupID] [Text]
-Set a group's about text
+تنظیم اطلاعات یک گروه
 
 !setrules [GroupID] [Text]
-Set a group's rules
+تنظیم قوانین یک گروه
 
 !lock [GroupID] [setting]
-Lock a group's setting
+بستن تنظیمات یک گروه
 
 !unlock [GroupID] [setting]
-Unock a group's setting
+بازکردن تنظیمات یک گروه
 
 !wholist
-Get a list of members in group/realm
+دیدن اعضای ریلم
 
 !who
-Get a file of members in group/realm
+دیدن اعضای ریلم یا گروه
 
 !type
-Get group type
+تعداد پیام ها
 
 !kill chat [GroupID]
-Kick all memebers and delete group
+خراب کردن یک گروه
 
 !kill realm [RealmID]
-Kick all members and delete realm
+خراب کردن ریلم
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+اضافه کردن مدیر به ربات
 
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+حذف مدیر از ربات
 
 !list groups
-Get a list of all groups
+لیست گروه ها
 
 !list realms
-Get a list of all realms
+لیست ریلم ها
 
 !log
-Grt a logfile of current group or realm
+لیست تمامی ریلم ها و گروه ها
 
 !broadcast [text]
 !broadcast Hello !
-Send text to all groups
-Only sudo users can run this command
+فرستادن پیام به همه گروه ها
 
 !bc [group_id] [text]
 !bc 123456789 Hello !
-This command will send text to [group_id]
+فرستادن پیام به گروه موردنظر
 
 
-**U can use both "/" and "!" 
+
+دستورات را میتوانید با "/" و "!" وارد کنید 
 
 
-*Only admins and sudo can add bots in group
 
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
 Commands list :
