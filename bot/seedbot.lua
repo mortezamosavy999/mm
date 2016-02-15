@@ -229,7 +229,16 @@ function create_config( )
     sudo_users = {93213608,67255537,167912005,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[monsterTG
+    about_text = [[monsterTG v2
+کاری از بلک هت🎩
+
+SUDO=@BLACK_HAT_ADMIN02
+SUDO=@MAMOOTCODE
+SUDO=@BLACK_HAT_ADMIN03
+
+Channel=@blackhatchannel
+
+
 ]],
     help_text_realm = [[
 Realm Commands:
