@@ -299,113 +299,133 @@ Realm Commands:
 دستورات را میتوانید با "/" و "!" وارد کنید 
 
 
+SUDO=@BLACK_HAT_ADMIN02
+SUDO=@MAMOOTCODE
+SUDO=@BLACK_HAT_ADMIN03
+
+Channel=@blackhatchannel
 
 ]],
     help_text = [[
 Commands list :
 
-!kick [username|id]
-You can also do it by reply
+kick [username|id]
+کیک حتی با ریپلی
 
-!ban [ username|id]
-You can also do it by reply
+ban [ username|id]
+بن حتی با ریپلی
 
-!unban [id]
-You can also do it by reply
+feedback پیام
+فرستادن پیام به صاحبان ربات
+
+calc تمرین
+حل تمرین ریاضی شما
+
+بگو متن
+گفتتن متن دلخواه
+
+t2i متن
+ساختن عکس متن شما
+
+ورژن
+نمایش ورژن بات
+
+unban [id]
+حذف از بن
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+لیست مدیران
 
 !promote [username]
-Promote someone
+دادن مقام 
 
 !demote [username]
-Demote someone
+حذف مقام
 
-!kickme
-Will kick user
+kickme
+خروج از گروه
 
 !about
-Group description
+اطلاعات گروه
 
 !setphoto
-Set and locks group photo
+ تنظیم عکس گروه و قفل ان
 
 !setname [name]
-Set group name
+تنظیم نام گروه و قفل ان
 
 !rules
-Group rules
+قوانین گروه
 
-!id
-return group id or user id
+id
+ایدی گروه و با ریپلی ایدی فرد را نشان میدهد
 
-!help
 
 !lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+بستن اعضا - نام - ورود بات - خروج از گروه
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+بازکردن: اعضا- نام - ورودبات - خروج از گروه
 
 !set rules <text>
-Set <text> as rules
+تنظیم قوانین گروه به ...
 
 !set about <text>
-Set <text> as about
+تنظیم درباره گروه به ...
 
 !settings
-Returns group settings
+تنظیمات گروه
 
 !newlink
-create/revoke your group link
+ساختن لینک جدید
 
 !link
-returns group link
+لینک گروه
 
 !owner
-returns group owner id
+ایدی صاحب گروه
 
 !setowner [id]
-Will set id as owner
+تنظیم صاحب گروه
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم مقدار اسپم
 
 !stats
-Simple message statistics
+پیام های اعضا
 
 !save [value] <text>
-Save <text> as [value]
+ذخیره یک دستور با متن
 
 !get [value]
-Returns text of [value]
+گرفتن دستور متن
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن - مدیران - قوانین - درباره گروه -
 
 !res [username]
-returns user id
+دریافت ایدی فردی
 "!res @username"
 
 !log
-will return group logs
+ورودی های گروه
 
-!banlist
-will return group ban list
-
-**U can use both "/" and "!" 
+banlist
+لیست افراد بن شده
 
 
-*Only owner and mods can add bots in group
+
+دستورات را میتوانید با "/" و "!" وارد کنید
 
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+SUDO=@BLACK_HAT_ADMIN02
+SUDO=@MAMOOTCODE
+SUDO=@BLACK_HAT_ADMIN03
 
-*Only owner can use res,setowner,promote,demote and log commands
+Channel=@blackhatchannel
 
 ]]
   }
