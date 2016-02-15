@@ -1,4 +1,4 @@
- local function run(msg)
+local function run(msg)
 if msg.text == "[!/]spam" then
 	return "".. [[ 
   
